@@ -17,7 +17,7 @@
         DaveBulow
     </author>
 
-	<icon src="icons.png"/>
+	<icon src="icon.png"/>
 	
 	<gap:platform name="ios" />
     <gap:platform name="android" />
