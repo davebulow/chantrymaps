@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.davebulow.chantrymaps"
+        versionCode = "2" 
+        version     = "0.0.2" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Chantry Maps</name>
+
+    <description>
+        Chantry Maps is an App designed to help publishers in the congregation to become familiar with their territory.
+    </description>
+
+    <author email="davebulow@googlemail.com">
+        DaveBulow
+    </author>
+
+</widget>
