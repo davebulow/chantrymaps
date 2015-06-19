@@ -1,178 +1,202 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html;
-      charset=windows-1252">
+<html manifest="c.appcache">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
     <meta name="viewport" content="width=device-width,
       initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Chantry Maps</title>
-    <style>
-		body 	{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+	<style>
+		body {
+			font-family:Arial,Helvetica,sans-serif;font-size:14px;
+		}
+		h1 {
+			display: inline;
+			font-size: 2em;
+			margin-top: 0.67em;
+			margin-bottom: 0.67em;
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+			font-weight: bold;
+		}
+		h2 {
+			display: inline;
+			font-size: 1.5em;
+			margin-top: 0.3em;
+			margin-bottom: 0.3em;
+			margin-left: 0;
+			margin-right: 0;
+			font-weight: bold;
+		}
+		td {
+			-webkit-border-radius: 15px;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+		}
+		table {
+			-webkit-border-radius: 23px;
+			-moz-border-radius: 23px;
+			border-radius: 23px;
+		}
+		#extraroundedtable {
+			-webkit-border-radius: 30px;
+			-moz-border-radius: 30px;
+			border-radius: 30px;
+		}
 	</style>
-  </head>
-  <body bgcolor="#666666" link="#ffffff" text="#ffffff" vlink="#ffffff"
-    alink="#ffffff">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="512x512" href="icon.png">
+	<link rel="icon" href="favicon.gif">
+	
+	<meta name="msapplication-TileColor" content="#000000" />
+     <meta name="application-name" content="Chantry Maps">
+      <meta name="msapplication-square70x70logo" content="icon.png">
+      <meta name="msapplication-square150x150logo" content="icon.png">
+      <meta name="msapplication-wide310x150logo" content="iconwide.png">
+      <meta name="msapplication-square310x310logo" content="icon.png">
+	
+ </head>
+ 
+ 
+ <body bgcolor="#666666" link="#ffffff" text="#ffffff" vlink="#ffffff" alink="#ffffff">
     <br>
-    <table bgcolor="#333333" border="0" cellpadding="5" cellspacing="5"
-      width="95%" align="center">
+    <table id="extraroundedtable" bgcolor="#333333" border="0" cellpadding="5" cellspacing="5" align="center">
       <tbody>
         <tr>
-          <td valign="top" width="50" align="left"><a href="index.html"><img
-                src="i/backbuttonicon3.png" alt="Back" border="0"
-                width="75" height="75"></a></td>
-          <td valign="middle" align="center">
-            <h1>Rural Maps<br>
-              <small><i>(All Rural Maps)</i></small><br>
-            </h1>
-          </td>
+		<td>
+		<table border="0" cellpadding="5" cellspacing="5" width="100%" align="center">
+			<tbody>
+			<tr>
+			<td valign="top" width="50" align="left"><a href="mapslist.html"><img src="i/backbuttonicon3.png" alt="Back" border="0" height="75" width="75"></a></td>
+			<td valign="middle" align="center"><h1>Rural Maps</h1><br><h2>(All Rural Maps)</h2></td>
+			</tr>
+			</tbody>
+		</table>
+		</td>
         </tr>
         <tr>
-          <td valign="top" width="50"><br>
-          </td>
           <td valign="middle" align="center">
-            <table border="0" cellpadding="8" cellspacing="8"
-              align="center">
+            <table border="0" cellpadding="8" cellspacing="8" align="center">
               <tbody>
                 <tr>
-                  <td onclick="window.location.href = 'rural/was.jpg'"
-                    bgcolor="#006600" valign="middle" width="300"
-                    align="center">
+                  <td onclick="window.location.href = 'rural/bar.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Barking and Willisham<br>
+                      <small><i>(Map 47 / BAR)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/bil.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Bildeston<br>
+                      <small><i>(Map 54 / BIL)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/bur.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Burstall<br>
+                      <small><i>(Map 48 / BUR)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/cha.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Chattisham<br>
+                      <small><i>(Map 32 / CHA)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/cop.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Copdock<br>
+                      <small><i>(Map 58 / COP)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/duk.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Duke Street Hintlesham<br>
+                      <small><i>(Map 56 / DUK)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/elm.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Elmsett<br>
+                      <small><i>(Map 50 / ELM)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/flo.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Flowton<br>
+                      <small><i>(Map 57 / FLO)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/hin.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Hintlesham Village<br>
+                      <small><i>(Map 34 / HIN)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/lay.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Layham<br>
+                      <small><i>(Map 36 / LAY)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/ned.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Nedging-With-Naughton<br>
+                      <small><i>(Map 53 / NED)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/off.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Offton<br>
+                      <small><i>(Map 55 / OFF)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/old.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Old London Road<br>
+                      <small><i>(Map 59 / OLD)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/ray.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Raydon<br>
+                      <small><i>(Map 35 / RAY)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/she.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Shelley<br>
+                      <small><i>(Map 60 / SHE)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/som.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Somersham<br>
+                      <small><i>(Map 49 / SOM)</i></small></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td onclick="window.location.href = 'rural/was.jpg'" bgcolor="#006600" valign="middle" width="300" align="center">
                     <h2>Washbrook<br>
                       <small><i>(Map 31 / WAS)<br>
                         </i></small></h2>
                   </td>
                 </tr>
                 <tr>
-                  <td onclick="window.location.href = 'rural/cha.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Chattisham<br>
-                      <small><i>(Map 32 / CHA)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/wen.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Wenham<br>
-                      <small><i>(Map 33 / WEN)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/hin.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Hintlesham Village<br>
-                      <small><i>(Map 34 / HIN)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/ray.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Raydon<br>
-                      <small><i>(Map 35 / RAY)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/lay.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Layham<br>
-                      <small><i>(Map 36 / LAY)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/bar.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Barking and Willisham<br>
-                      <small><i>(Map 47 / BAR)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/bur.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Burstall<br>
-                      <small><i>(Map 48 / BUR)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/som.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Somersham<br>
-                      <small><i>(Map 49 / SOM)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/elm.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Elmsett<br>
-                      <small><i>(Map 50 / ELM)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/wha.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Whatfield and Aldham<br>
-                      <small><i>(Map 51 / WHA)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/wat.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
+                  <td onclick="window.location.href = 'rural/wat.jpg'" bgcolor="#006600" valign="middle" align="center">
                     <h2>Wattisham<br>
                       <small><i>(Map 52 / WAT)</i></small></h2>
                   </td>
                 </tr>
                 <tr>
-                  <td onclick="window.location.href = 'rural/ned.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Nedging-With-Norton<br>
-                      <small><i>(Map 53 / NED)</i></small></h2>
+                  <td onclick="window.location.href = 'rural/wen.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Wenham<br>
+                      <small><i>(Map 33 / WEN)</i></small></h2>
                   </td>
                 </tr>
                 <tr>
-                  <td onclick="window.location.href = 'rural/bil.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Bildeston<br>
-                      <small><i>(Map 54 / BIL)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/off.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Offton<br>
-                      <small><i>(Map 55 / OFF)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/duk.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Hintlesham Duke Street<br>
-                      <small><i>(Map 56 / DUK)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/flo.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Flowton<br>
-                      <small><i>(Map 57 / FLO)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/cop.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Copdock<br>
-                      <small><i>(Map 58 / COP)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/old.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Old London Road<br>
-                      <small><i>(Map 59 / OLD)</i></small></h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td onclick="window.location.href = 'rural/she.jpg'"
-				  bgcolor="#006600" valign="middle" align="center">
-                    <h2>Shelley<br>
-                      <small><i>(Map 60 / SHE)</i></small></h2>
+                  <td onclick="window.location.href = 'rural/wha.jpg'" bgcolor="#006600" valign="middle" align="center">
+                    <h2>Whatfield and Aldham<br>
+                      <small><i>(Map 51 / WHA)</i></small></h2>
                   </td>
                 </tr>
               </tbody>
@@ -184,5 +208,5 @@
     <br>
     <p><br>
     </p>
-  </body>
+</body>
 </html>

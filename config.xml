@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.davebulow.chantrymaps"
-        versionCode = "2" 
-        version     = "0.0.2" >
+        versionCode = "4" 
+        version     = "0.4" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -18,14 +18,5 @@
     </author>
 
 	<icon src="icon.png"/>
-	
-	<gap:platform name="ios" />
-    <gap:platform name="android" />
-    <gap:platform name="webos" />
-    <gap:platform name="symbian" />
-    <gap:platform name="blackberry" />
-    <gap:platform name="winphone" />
-	<gap:platform name="windows" />
-
-	
+		
 </widget>
